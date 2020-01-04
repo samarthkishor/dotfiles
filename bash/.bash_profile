@@ -36,6 +36,9 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 # opam configuration
 test -r /Users/samarth/.opam/opam-init/init.sh && . /Users/samarth/.opam/opam-init/init.sh > /dev/null 2> /dev/null || true
 
+# fzf C-r support
+export FZF_CTRL_R_OPTS="--preview 'echo {}' --preview-window down:3:hidden:wrap --bind '?:toggle-preview'"
+
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
