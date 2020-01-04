@@ -24,5 +24,8 @@ set -o vi
 # Helpful aliases
 alias ls='lsd'
 alias doom="~/.emacs.d/bin/doom"
+alias cat='bat'
 
 eval "$(fasd --init auto)"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
