@@ -43,3 +43,4 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
+export PATH=/usr/local/smlnj/bin:/Users/samarth/.opam/default/bin:/usr/local/opt/mysql@5.7/bin:/Users/samarth/.rbenv/shims:/Users/samarth/bin:/Users/samarth/DrMemory-MacOS-1.11.0-2/bin:/Users/samarth/lean-3.4.0-darwin/bin:/Users/samarth/google-cloud-sdk/bin:/Users/samarth/.rbenv/bin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Library/TeX/texbin:/sbin:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/bin:/usr/local/opt/fzf/bin
